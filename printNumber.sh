@@ -10,3 +10,6 @@ number=1;
   esac
     number=$((numberr++))
  done
+ 
+echo "Store in array."
+   number="${number[@]}"
